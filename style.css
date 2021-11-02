@@ -1,0 +1,362 @@
+body{
+    background: #727272;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+.navbar .advocate{
+    color:#F90253;
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-style: italic;
+    font-weight: 800;
+}
+.nav-item .nav-link{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color:#ffffff;
+}
+.nav-item .nav-link{
+    color: black;
+}
+.nav-item .home{
+    color:#d79100; 
+}
+.nav-item:hover .nav-link{
+	color:#d79100;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:#242f3ae6;
+    z-index: 1;
+    opacity: 0.6;
+}
+.carousel-caption span{
+    color: #d79100;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    position: relative;
+    right: 22rem;
+    bottom:20.5rem;
+}
+.head-1,.head-2{
+      color: #fff;
+    font-size: 5rem;
+    font-weight: 700; 
+    font-family: serif;
+    position: relative; 
+}
+.head-1{
+    right: 4.5rem;
+    bottom: 21rem;
+}
+.head-2{
+    right: 10.5rem;
+    bottom: 23rem;
+}
+.carousel-caption .btn{
+    color:#ffffff;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    border-radius: 0;
+    position: relative;
+    right: 23.9rem;
+    bottom: 22.5rem;
+}
+.carousel-caption:hover .btn{
+    color: #fff;
+}
+.v-line{
+    z-index: 9;
+    height: 15rem;
+    width: .1rem;
+    background-color: #d79100;
+    position: absolute;
+    bottom:90rem;
+    left: 1rem;
+    -webkit-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+}
+.v-line-1{
+    height: 16rem;
+    width:.1rem;
+    background-color: #d79100;
+    position:relative;
+    top:27rem;
+    left: 66rem;
+    transform: translateY(100%);
+}
+.content{
+    font-family: serif;
+}
+.content h2{
+    font-size: 3.6rem;
+    color: #242f3a;
+    font-weight: 700;
+}
+.content p{
+    font-size: 1.4rem;
+    font-family:sans-serif;
+    font-weight: 400;
+
+}
+.content img{
+    width: 15rem;
+}
+.about{
+    color: #d79100;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    position: relative;
+    left: 7.5rem;
+}
+.jeynne{
+    font-size: 3.6rem;
+    color: #242f3a;
+    font-weight: 700;
+    position: relative;
+    left: 7rem;
+}
+.camp{
+    z-index: 2;
+}
+.box{
+    padding: 9rem 5rem;
+    border: .5rem solid #d79100;
+    text-align:justify;
+    position: relative;
+    left: 7rem;
+    z-index: 2;
+    bottom: 2.5rem;
+}
+.box p{
+    font-size: 1.5rem;
+}
+.wrap{
+    padding: 7rem;
+}
+#para{
+    font-size: 1.4rem;
+}
+.content-1 span{
+    color: #d79100;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+.content-1 h3{
+    font-size: 3.6rem;
+    color: #242f3a;
+    font-weight: 700;
+}
+.icon{
+    display: inline-flex;
+}
+.logo{
+    width: 5rem;
+}
+.box-2{
+    background-color: #fff;
+    padding: 5rem;
+    position: relative;
+    right: 10rem;
+    bottom: 2.5rem;
+    font-size: 1.7rem;  
+}
+.number{
+    flex: 0 0 6rem;
+    margin-right:2rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    font-weight: bold;
+    width: 6rem;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    background-color: #d79100;
+    display: inline-block;
+    border-radius: 50%;
+}
+.custom-media h2{
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #242f3a;
+    cursor: pointer;
+}
+.custom-media p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.box-3{
+        padding: 5rem;
+    background: #fff;
+    box-shadow: 0 1.5rem 3rem 0 rgb(0 0 0 / 5%);
+    position: relative;
+    left: 10rem;
+    bottom: 2rem;
+}
+.info{
+    z-index: 2;
+}
+.box-3::before{
+        position: absolute;
+    content: "";
+    border: .4rem solid #d79100;
+    left: -5rem;
+    bottom: -5rem;
+    width: 47rem;
+    height: 100%;
+    z-index: -1;
+}
+.box-3 h2{
+    font-size: 3.6rem;
+    color: #242f3a;
+    font-weight: 700;
+    font-family: serif;
+}
+.box-3 p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    text-align: justify;
+}
+.box-list{
+      border: .4rem solid #d79100;
+    padding: 7rem;
+    margin-top: 5rem;
+    z-index: 2;  
+}
+.box-list li{
+    position: relative;
+    color: #242f3a;
+    padding-left: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.box-list li::before{
+    position: absolute;
+    left: 0;
+    top: -.2rem;
+    content: "\e5ca";
+    font-size: 1.8rem;
+    font-family: 'icomoon'; 
+}
+.widget{
+ margin-bottom: 3rem;
+ font-size: 1.4rem;
+}
+.widget h3{
+    font-size: 2rem;
+    color: #000;
+    margin-bottom: 2rem;
+}
+.widget p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.btn .btn-primary-hover-outline{
+    background: #d79100;
+    color: #fff;
+    border: .2rem solid transparent;
+}
+.widget .btn{
+    padding: 1.2rem 2.5rem;
+    border-radius: 0;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+.me-5{
+    margin-right: 3rem ;
+}
+.social-icon span {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    border-radius: 50%;
+    background: #303030;  
+}
+.bi{
+    position: relative;
+    font-size: 2.6rem;
+    left: .7rem;
+
+}
+.bi:hover{
+    color:#d79100;
+}
+.subscribe input{
+    font-size: 1.4rem;
+    height: 4.2rem;
+    border: .2rem solid rgba(0, 0, 0, 0.2);
+    background: none;
+    color: #000;
+    padding-right: 4rem;
+    outline: none;
+}
+.subscribe .bi-arrow-right{
+    position: relative;
+    bottom: 5.4rem;
+    left: 13rem;
+}
+.widget a{
+    color: #00000080;
+}
+.widget a:hover{
+    text-decoration: none;
+}
+.copyright{
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    position: relative;
+    padding-top: 2rem;
+}
+.copyright:before{
+        content: "";
+    position: absolute;
+    left: 1.5rem;
+    right: 1.5rem;
+    top: 0;
+    height: .1rem;
+    background:#00000033;
+}
+@media(max-width:998px){
+    html{
+        font-size: 55%;
+        width: 100%;
+        padding: 0rem auto;
+    }
+    body{
+        width: 100%;
+        padding: 0rem auto;
+    }
+}
+@media(max-width: 768px){
+    html{
+        font-size: 45%;
+        width: 100%;
+        padding: 0rem auto;
+    }
+    body{
+        width: 100%;
+        padding: 0rem auto;
+    }
+}
