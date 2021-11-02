@@ -359,4 +359,15 @@ html{
         width: 100%;
         padding: 0rem auto;
     }
+	.carousel-caption{
+        top: 20rem;
+    }
+    .carousel-caption .btn{
+        right: 10rem;
+    }
+    .head-1,.head-2{
+            display: inline-flex;
+            right: 0rem;
+            text-align: left;
+    }
 }
