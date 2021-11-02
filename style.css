@@ -360,14 +360,36 @@ html{
         padding: 0rem auto;
     }
 	.carousel-caption{
-        top: 20rem;
+        top: 28rem;
     }
     .carousel-caption .btn{
         right: 10rem;
+        font-size: 2rem;
+        bottom: 20rem;
+	    
     }
-    .head-1,.head-2{
-            display: inline-flex;
+    .head-1{
+            display: inline-block;
             right: 0rem;
             text-align: left;
+            font-size: 3rem;
+            bottom: 20rem;
     }
+    .head-2{
+        display: inline-block;
+        font-size: 3rem;
+        text-align: left;
+        right:3.5rem;
+        bottom: 20rem;
+    }
+    .carousel-caption span{
+        font-size: 1.6rem;
+        bottom: 20rem;
+        right: 6.5rem;
+
+    }
+	.navbar-toggler-icon{
+        border: 2px solid #000;
+    }
+
 }
