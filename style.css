@@ -363,7 +363,7 @@ html{
         top: 27rem;
     }
     .carousel-caption .btn{
-        right: 10rem;
+        right: 7rem;
         font-size: 2rem;
         bottom: 20rem;
 	    
@@ -372,20 +372,20 @@ html{
             display: inline-block;
             right: 0rem;
             text-align: left;
-            font-size: 2.9rem;
+            font-size: 2.5rem;
             bottom: 20rem;
     }
     .head-2{
         display: inline-block;
-        font-size: 2.9rem;
+        font-size: 2.5rem;
         text-align: left;
-        right:3.5rem;
+        right:3rem;
         bottom: 20rem;
     }
     .carousel-caption span{
         font-size: 2rem;
         bottom: 20rem;
-        right: 6.5rem;
+        right: 4rem;
 
     }
 	.navbar-toggler-icon{
