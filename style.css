@@ -361,23 +361,26 @@ html{
         overflow-x: hidden;
     }
     .carousel-caption{
-        top: 28rem;
+        top: 45rem;
     }
     .carousel-caption span{
-        right: 15rem;
+        right: 28.5rem;
+	font-size: 3rem;
     }
     .head-1,.head-2{
         display: block;
-        font-size: 3rem;
+        font-size: 5rem;
         bottom: 20rem;
         text-align: left;
-        display: table-cell;
     }
+	.head-2{
+        right: 4.5rem;
+    }	
     .carousel-caption .btn{
         font-size: 2rem;
         bottom: 20rem;
         text-align: center;
-        right: 17.5rem;
+        right: 39.5rem;
     }
     .content{
         display: block;
