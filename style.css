@@ -439,6 +439,22 @@ html{
     .wrap{
         padding: 0;
     }
+	.one{
+        margin: 0 auto;
+    }
+    .two img{
+        display: block;
+        position: relative;
+        left: 19rem;
+        top: 5rem;
+        margin: 0 auto;
+    }
+  
+	.subscribe .bi-arrow-right{
+        position: absolute;
+        top: 16rem;
+        left: 18rem;
+    }
   
 }
 @media(max-width: 576px){
