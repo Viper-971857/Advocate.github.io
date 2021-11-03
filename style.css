@@ -352,44 +352,106 @@ html{
 @media(max-width: 768px){
     html{
         font-size: 45%;
-        width: 100%;
+        max-width: 100%;
         padding: 0rem auto;
     }
     body{
-        width: 100%;
+        max-width: 100%;
         padding: 0rem auto;
+        overflow-x: hidden;
     }
-	.carousel-caption{
-        top: 27rem;
-    }
-    .carousel-caption .btn{
-        right: 7rem;
-        font-size: 2rem;
-        bottom: 20rem;
-	    
-    }
-    .head-1{
-            display: inline-block;
-            right: 2.5rem;
-            text-align: left;
-            font-size: 2.5rem;
-            bottom: 20rem;
-    }
-    .head-2{
-        display: inline-block;
-        font-size: 2.5rem;
-        text-align: left;
-        right:3rem;
-        bottom: 20rem;
+    .carousel-caption{
+        top: 28rem;
     }
     .carousel-caption span{
+        right: 15rem;
+    }
+    .head-1,.head-2{
+        display: block;
+        font-size: 3rem;
+        bottom: 20rem;
+        text-align: left;
+        display: table-cell;
+    }
+    .carousel-caption .btn{
         font-size: 2rem;
         bottom: 20rem;
-        right: 4rem;
+        text-align: center;
+        right: 17.5rem;
+    }
+    .content{
+        display: block;
+    }
+    .about,.jeynne{
+        display: block;
+        position: revert;
+        font-size: 2rem;
+        top: 7rem;
+    }
+    .jeynne{
+        font-size: 5rem;
+    }
+    .content-1 span{
+        font-size: 2.5rem;
+    }
+    #para{
+        font-size: 2.5rem;
+    }
+    .choose-us{
+        font-size: 3rem;
+        position: relative;
+        top: 5rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    .box{
+        position: revert;
+    }
+    .box-2{
+        position: revert;
+        text-align: left;
+    }
+    .box-3{
+        text-align:left;
+        position: revert;
+    }
+    .box-3::before{
+        left: 1rem;
+        bottom: 1rem;
+    }
+    .v-line-1{
+        left: 50rem;
+        top: 30rem
+    }
+    .container{
+        overflow-x: hidden;
+    }
+    .row{
+        overflow-x: hidden;
+    }
+    .box-wrap{
+        position: relative;
+        right:0rem;
+    }
+    .wrap{
+        padding: 0;
+    }
+  
+}
+@media(max-width: 576px){
 
+    html{
+        font-size: 40%;
+        padding: 0rem auto;
     }
-	.navbar-toggler-icon{
-        border: 2px solid #000;
+
+}
+@media(max-width:1200px){
+
+    html{
+        font-size: 40%;
+        padding: 0rem auto;
     }
+
 
 }
