@@ -348,6 +348,7 @@ html{
         width: 100%;
         padding: 0rem auto;
     }
+	
 }
 @media(max-width: 768px){
     html{
@@ -365,11 +366,9 @@ html{
     }
     .carousel-caption span{
         right: 28.5rem;
-	font-size: 3rem;
     }
     .head-1,.head-2{
         display: block;
-        font-size: 5rem;
         bottom: 20rem;
         text-align: left;
     }
@@ -377,7 +376,6 @@ html{
         right: 4.5rem;
     }	
     .carousel-caption .btn{
-        font-size: 2rem;
         bottom: 20rem;
         text-align: center;
         right: 39.5rem;
@@ -388,20 +386,9 @@ html{
     .about,.jeynne{
         display: block;
         position: revert;
-        font-size: 2rem;
         top: 7rem;
     }
-    .jeynne{
-        font-size: 5rem;
-    }
-    .content-1 span{
-        font-size: 2.5rem;
-    }
-    #para{
-        font-size: 2.5rem;
-    }
     .choose-us{
-        font-size: 3rem;
         position: relative;
         top: 5rem;
         text-align: center;
@@ -442,13 +429,6 @@ html{
 	.one{
         margin: 0 auto;
     }
-    .two img{
-        display: block;
-        position: relative;
-        left: 19rem;
-        top: 5rem;
-        margin: 0 auto;
-    }
   
 	.subscribe .bi-arrow-right{
         position: absolute;
@@ -460,7 +440,7 @@ html{
 @media(max-width: 576px){
 
     html{
-        font-size: 45%;
+        font-size: 40%;
         max-width: 100%;
         padding: 0rem auto;
     }
@@ -474,11 +454,9 @@ html{
     }
     .carousel-caption span{
         right: 19.5rem;
-        font-size:2.8rem;
     }
     .head-1,.head-2{
         display: block;
-        font-size: 5rem;
         bottom: 20rem;
         text-align: left;
     }
@@ -486,7 +464,6 @@ html{
         right: 4.5rem;
     }
     .carousel-caption .btn{
-        font-size: 2rem;
         bottom: 20rem;
         text-align: center;
         right:28.5rem;
@@ -509,13 +486,6 @@ html{
     .one{
         margin: 0 auto;
     }
-    .two img{
-        display: block;
-        position: relative;
-        left: 0rem;
-        top: 5rem;
-        margin: 0 auto;
-    }
     .subscribe .bi-arrow-right{
         position: absolute;
         top: 16rem;
@@ -527,7 +497,7 @@ html{
 @media(max-width:342px){
 
     html{
-        font-size:33%;
+        font-size:35%;
         padding: 0rem auto;
     }
 	body{
@@ -540,11 +510,9 @@ html{
     }
     .carousel-caption span{
         right: 10.5rem;
-        font-size:2rem;
     }
     .head-1,.head-2{
         display: block;
-        font-size: 3rem;
         bottom: 20rem;
         text-align: left;
     }
@@ -552,13 +520,9 @@ html{
         right: 4.5rem;
     }
     .carousel-caption .btn{
-        font-size: 1.5rem;
         bottom: 20rem;
         text-align: center;
         right:18rem;
-    }
-    .content-1 span{
-        font-size: 2.5rem;
     }
 
 
