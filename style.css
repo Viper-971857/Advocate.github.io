@@ -465,6 +465,9 @@ html{
     .carousel-caption{
         top:35rem;
     }
+    .carousel-caption .welcome{
+        right:23rem;
+    }
     .head-1,.head-2{
         display: block;
         bottom: 20rem;
@@ -503,9 +506,7 @@ html{
 }
 
 
-
-
-@media(max-width:342px){
+@media(max-width:378px){
 
     html{
         font-size:25%;
@@ -520,7 +521,7 @@ html{
         top:35rem;
     }
     .carousel-caption .welcome{
-        right:24.5rem;
+        right:28rem;
     }
     .head-1,.head-2{
         bottom: 20rem;
@@ -532,7 +533,7 @@ html{
     .carousel-caption .btn{
         bottom: 18.5rem;
         text-align: center;
-        right:25rem;
+        right:29rem;
     }
     .bg-dark{
         background-color: red;
