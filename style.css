@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*    border: 2px solid red;
+*/}
 body{
     background: #727272;
 }
@@ -39,7 +45,7 @@ html{
     z-index: 1;
     opacity: 0.6;
 }
-.carousel-caption span{
+.carousel-caption .welcome{
     color: #d79100;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -50,7 +56,7 @@ html{
     bottom:20.5rem;
 }
 .head-1,.head-2{
-      color: #fff;
+    color: #fff;
     font-size: 5rem;
     font-weight: 700; 
     font-family: serif;
@@ -203,7 +209,7 @@ html{
     margin-bottom: 1rem;
 }
 .box-3{
-        padding: 5rem;
+    padding: 5rem;
     background: #fff;
     box-shadow: 0 1.5rem 3rem 0 rgb(0 0 0 / 5%);
     position: relative;
@@ -330,7 +336,7 @@ html{
     padding-top: 2rem;
 }
 .copyright:before{
-        content: "";
+    content: "";
     position: absolute;
     left: 1.5rem;
     right: 1.5rem;
@@ -346,39 +352,45 @@ html{
     }
     body{
         width: 100%;
-        padding: 0rem auto;
+        padding: 0 auto;
     }
-	
 }
+
+
+
+
+
 @media(max-width: 768px){
     html{
         font-size: 45%;
         max-width: 100%;
-        padding: 0rem auto;
+        padding: 0 auto;
+        margin: 0 auto;
     }
     body{
         max-width: 100%;
-        padding: 0rem auto;
+        padding: 0 auto;
+        margin: 0 auto;
         overflow-x: hidden;
     }
     .carousel-caption{
-        top: 45rem;
+        top:45rem;
     }
-    .carousel-caption span{
-        right: 28.5rem;
+    .carousel-caption .welcome{
+        right:32rem;
     }
     .head-1,.head-2{
         display: block;
         bottom: 20rem;
         text-align: left;
     }
-	.head-2{
+    .head-2{
         right: 4.5rem;
-    }	
+    }
     .carousel-caption .btn{
         bottom: 20rem;
         text-align: center;
-        right: 39.5rem;
+        right:33rem;
     }
     .content{
         display: block;
@@ -392,7 +404,6 @@ html{
         position: relative;
         top: 5rem;
         text-align: center;
-        font-weight: 700;
     }
     .box{
         position: revert;
@@ -426,34 +437,33 @@ html{
     .wrap{
         padding: 0;
     }
-	.one{
+
+    .one{
         margin: 0 auto;
     }
-  
-	.subscribe .bi-arrow-right{
+    .subscribe .bi-arrow-right{
         position: absolute;
         top: 16rem;
         left: 18rem;
     }
-  
 }
+
+
+
 @media(max-width: 576px){
 
     html{
-        font-size: 40%;
+        font-size: 45%;
         max-width: 100%;
-        padding: 0rem auto;
+        padding: 0 auto;
     }
     body{
         max-width: 100%;
-        padding: 0rem auto;
+        padding: 0 auto;
         overflow-x: hidden;
     }
     .carousel-caption{
         top:35rem;
-    }
-    .carousel-caption span{
-        right: 19.5rem;
     }
     .head-1,.head-2{
         display: block;
@@ -466,8 +476,9 @@ html{
     .carousel-caption .btn{
         bottom: 20rem;
         text-align: center;
-        right:28.5rem;
+        right:23.5rem;
     }
+
     .v-line-1{
         left: 75rem;
         top: 20rem
@@ -478,41 +489,40 @@ html{
     .row{
         overflow-x: hidden;
     }
-    .box-wrap{
-        position: relative;
-        right:0rem;
-    }
 
     .one{
         margin: 0 auto;
     }
-    .subscribe .bi-arrow-right{
+      .subscribe .bi-arrow-right{
         position: absolute;
         top: 16rem;
         left: 18rem;
     }
-    
+        
 
 }
+
+
+
+
 @media(max-width:342px){
 
     html{
-        font-size:35%;
-        padding: 0rem auto;
+        font-size:25%;
+        padding: 0 auto;
     }
-	body{
+    body{
         max-width: 100%;
-        padding: 0rem auto;
+        padding: 0 auto;
         overflow-x: hidden;
     }
     .carousel-caption{
         top:35rem;
     }
-    .carousel-caption span{
-        right: 10.5rem;
+    .carousel-caption .welcome{
+        right:24.5rem;
     }
     .head-1,.head-2{
-        display: block;
         bottom: 20rem;
         text-align: left;
     }
@@ -520,10 +530,16 @@ html{
         right: 4.5rem;
     }
     .carousel-caption .btn{
-        bottom: 20rem;
+        bottom: 18.5rem;
         text-align: center;
-        right:18rem;
+        right:25rem;
     }
+    .bg-dark{
+        background-color: red;
+    }
+    .subscribe .bi-arrow-right{
+    left: 22rem;
+}
 
 
 }
